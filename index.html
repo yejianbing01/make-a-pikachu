@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画一个皮卡丘</title>
+    <link rel="stylesheet" href="./default.css">
+    <link rel="stylesheet" href="./main.css">
+    <style id="styleTag"></style>
+</head>
+
+<body>
+    <div class="code-wrapper">
+        <pre id="code"></pre>
+    </div>
+
+    <div class="preview-wrapper">
+        <div class="preview-wrapper-content">
+            <div class="lowerLip-wrapper">
+                <div class="lowerLip"></div>
+            </div>
+            <div class="nose"></div>
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+            <div class="face left"></div>
+            <div class="face right"></div>
+            <div class="upperLip left"></div>
+            <div class="upperLip right"></div>
+        </div>
+    </div>
+
+    <div class="actions">
+        <button data-speed="slow">慢速</button>
+        <button data-speed="normal" class="actions-active">中速</button>
+        <button data-speed="fast">快速</button>
+    </div>
+
+    <script src="./lib/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
