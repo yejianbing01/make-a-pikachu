@@ -193,4 +193,4 @@ const styleStr = `
  */
 `
 
-writeCode.call(null, styleStr)
+writeCode.call(undefined, styleStr)
